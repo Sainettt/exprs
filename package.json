@@ -1,10 +1,11 @@
 {
   "scripts": {
-    "start": "node express/app.js",
-    "dev": "nodemon express/app.js"
+    "start": "node express/middlewares/server.mjs",
+    "dev": "nodemon express/middlewares/server.mjs"
   },
   "dependencies": {
     "express": "^5.1.0",
+    "morgan": "^1.10.0",
     "nodemon": "^3.1.9"
   }
 }
